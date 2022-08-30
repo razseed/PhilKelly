@@ -1,0 +1,44 @@
+.hero-slide {
+    animation-duration: 4000ms;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-name: bounce;
+    overflow:hidden;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes bounce {
+    from {
+       margin-left: 100%;
+       width: 300%;
+    }
+    to {
+        margin-left: 70%;
+        width: 100%;
+    }
+}
+
+
+.slide-image {
+          display: flex;
+          justify-content: right 70%;
+}
+
+/*p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    from {
+       margin-left: 100%;
+       width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
