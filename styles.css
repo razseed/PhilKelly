@@ -62,3 +62,75 @@
     color:white;
     margin-right: 8vw
 }
+
+.Plumbing-Slider {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.Plumbing-SliderIMG {
+    max-width: 20vw;
+    max-height: 15vh;
+    margin: 10vh;
+}
+
+.pIMG {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.Plumbing-SliderContent {
+    justify-content: right;
+    text-align: center;
+}
+
+.Heating-Slider {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.Heating-SliderIMG {
+    max-width: 20vw;
+    max-height: 15vh;
+    margin: 10vh;
+}
+
+.hIMG {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.Heating-SliderContent {
+    text-align: center;
+}
+
+.Drain-Slider {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.Drain-SliderIMG {
+    max-width: 20vw;
+    max-height: 15vh;
+    margin: 10vh;
+}
+
+.dIMG {
+    max-height: 200px;
+    max-width: 200px; 
+}
+
+.Drain-SliderContent {
+    justify-content: right;
+    text-align: center;
+}
+
+footer {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+}
