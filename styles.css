@@ -19,3 +19,35 @@
     }
 }*/
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+
+#Top-Banner {
+    display: flex;
+    justify-content:space-evenly;
+    background-color:rgb(141, 141, 141);
+}
+
+.title {
+    text-decoration: underline;
+    justify-content: left;
+    text-align: center;
+    color:white;
+}
+
+#logoTemplate {
+    max-width: 10vh;
+    max-height: 15vh;
+    justify-content: center;
+    padding-top: 15px;
+    color:white;
+}
+
+.telNumber {
+    justify-content: right;
+    padding-top:15px;
+    font-size: x-large;
+    color:white;
+
+}
