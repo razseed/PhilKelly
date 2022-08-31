@@ -27,6 +27,10 @@
     display: flex;
     justify-content:space-between;
     background-color:rgb(141, 141, 141);
+    margin: -1%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
 }
 
 .title {
@@ -65,11 +69,12 @@
 
 .Plumbing-Slider {
     display:flex;
-    justify-content: space-between;
+    
     
 }
 
 .Plumbing-SliderIMG {
+    justify-content: left;
     max-width: 20vw;
     max-height: 15vh;
     margin: 10vh;
@@ -87,11 +92,10 @@
 
 .Heating-Slider {
     display:flex;
-    justify-content: space-between;
-    
 }
 
 .Heating-SliderIMG {
+    justify-content: right;
     max-width: 20vw;
     max-height: 15vh;
     margin: 10vh;
@@ -104,6 +108,7 @@
 
 .Heating-SliderContent {
     text-align: center;
+    justify-content: left;
 }
 
 .Drain-Slider {
