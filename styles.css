@@ -29,7 +29,8 @@
     background-color:rgb(141, 141, 141);
     margin: -1%;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 18px;
+    
 
 }
 
@@ -42,21 +43,21 @@
 }
 
 #logoTemplate {
-    max-width: 10vh;
+    max-width: 10vw;
     max-height: 15vh;
+    min-width: 5vw;
+    min-height: 8vh;
     justify-content: center;
-    /*margin-top: 30px;*/
     padding: 10px;
     color:white;
-    /* border: white solid 12px;
-    border-radius: 100px 100px;*/
+    
 }
 
 .logo {
     border: white solid 12px;
     border-radius: 200px;
     color:white;
-    padding:15px;
+    padding:2vh;
 }
 
 .telNumber {
@@ -64,11 +65,20 @@
     padding-top:15px;
     font-size: x-large;
     color:white;
-    margin-right: 8vw
+    margin-right: 8vw;
+    text-align: center;
+    margin-top: 2.5vh;
+}
+#telephoneCallHandler {
+    color:white;
+    background-color: red;
+    border-radius: 1vw;
+    padding: .5vh 1vw .5vh 1vw;
 }
 
-.Plumbing-Slider {
+#Plumbing-Slider {
     display:flex;
+    margin-top:20vh;
     
     
 }
@@ -90,8 +100,9 @@
     text-align: center;
 }
 
-.Heating-Slider {
+#Heating-Slider {
     display:flex;
+    margin-top:20vh;
 }
 
 .Heating-SliderIMG {
@@ -111,10 +122,9 @@
     justify-content: left;
 }
 
-.Drain-Slider {
+#Drain-Slider {
     display:flex;
-    justify-content: space-between;
-    
+    margin-top: 20vh;
 }
 
 .Drain-SliderIMG {
