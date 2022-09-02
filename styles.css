@@ -29,8 +29,7 @@
     background-color:rgb(141, 141, 141);
     margin: -1%;
     padding-top: 30px;
-    padding-bottom: 18px;
-    
+    padding-bottom: 18px;  
 
 }
 
@@ -49,8 +48,7 @@
     min-height: 8vh;
     justify-content: center;
     padding: 10px;
-    color:white;
-    
+    color:white;   
 }
 
 .logo {
@@ -73,11 +71,11 @@
     color:white;
     background-color: red;
     border-radius: 1vw;
-    padding: .5vh 1vw .5vh 1vw;
+    padding: .25vh 1vw .25vh 1vw;
     margin-top: 2.2vh;
     border-radius: 24px;
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 #Plumbing-Slider {
