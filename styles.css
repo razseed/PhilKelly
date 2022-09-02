@@ -69,13 +69,26 @@
 }
 #telephoneCallHandler {
     color:white;
-    background-color: red;
+    background-color: rgba(187, 0, 0, 0.871);
     border-radius: 1vw;
     padding: .25vh 1vw .25vh 1vw;
     margin-top: 2.2vh;
     border-radius: 24px;
     text-decoration: none;
     font-size: 2.5vh;
+    min-width: 210px;
+}
+/* ---- Section for plumbing transitions ---------*/
+
+@keyframes PlumbingIMG {
+    from {
+       margin-left: 0%;
+       width: 300%;
+    }
+    to {
+        margin-left: 30%;
+        width: 100%;
+    }
 }
 
 #Plumbing-Slider {
@@ -86,6 +99,11 @@
 }
 
 .Plumbing-SliderIMG {
+    animation-name: PlumbingIMG;
+    animation-duration: 4000ms;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
     justify-content: left;
     max-width: 20vw;
     max-height: 15vh;
@@ -101,6 +119,17 @@
     justify-content: right;
     text-align: center;
 }
+/* ---- Section for heating transitions ----------- */
+@keyframes HeatingIMG {
+    from {
+       margin-left: 100%;
+       width: 300%;
+    }
+    to {
+        margin-left: 70%;
+        width: 100%;
+    }
+}
 
 #Heating-Slider {
     display:flex;
@@ -108,6 +137,11 @@
 }
 
 .Heating-SliderIMG {
+    animation-name: HeatingIMG;
+    animation-duration: 4000ms;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
     justify-content: right;
     max-width: 20vw;
     max-height: 15vh;
@@ -123,6 +157,18 @@
     text-align: center;
     justify-content: left;
 }
+/* ---- Section for drainage transitons --------- */
+
+@keyframes DrainIMG {
+    from {
+       margin-left: 0%;
+       width: 300%;
+    }
+    to {
+        margin-left: 30%;
+        width: 100%;
+    }
+}
 
 #Drain-Slider {
     display:flex;
@@ -130,6 +176,11 @@
 }
 
 .Drain-SliderIMG {
+    animation-name: DrainIMG;
+    animation-duration: 4000ms;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
     max-width: 20vw;
     max-height: 15vh;
     margin: 10vh;
@@ -144,7 +195,7 @@
     justify-content: right;
     text-align: center;
 }
-
+/* ---- Section on contact details and finishing flair -------- */
 footer {
     display:flex;
     text-align: center;
