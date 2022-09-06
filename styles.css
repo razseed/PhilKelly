@@ -204,6 +204,17 @@
     }
 }
 
+@keyframes DrainContent {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: -30%;
+        width: 100%;
+    }
+}
+
 #Drain-Slider {
     display:flex;
     margin-top: 20vh;
@@ -226,8 +237,14 @@
 }
 
 .Drain-SliderContent {
+    animation-name: DrainContent;
+    animation-duration: 4000ms;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    animation-fill-mode: forwards;
     justify-content: right;
     text-align: center;
+    padding-top: 14vh;
 }
 /* ---- Section on contact details and finishing flair -------- */
 footer {
