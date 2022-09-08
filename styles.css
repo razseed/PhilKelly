@@ -72,12 +72,19 @@
     color:white;
     background-color: rgba(187, 0, 0, 0.871);
     border-radius: 1vw;
-    padding: .25vh 1vw .25vh 1vw;
+    padding: .20vh 1vw .20vh 1vw;
     margin-top: 2.2vh;
-    border-radius: 24px;
+    border-radius: 38px;
     text-decoration: none;
     font-size: 2.5vh;
     min-width: 210px;
+    transition: all 600ms ease;
+}
+
+#telephoneCallHandler:hover {
+    background:chartreuse;
+    color: black;
+    padding:.45vh 2vw .45vh 2vw;
 }
 
 /* ---- Section for plumbing transitions ---------*/

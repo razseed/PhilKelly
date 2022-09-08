@@ -1,6 +1,6 @@
-document.getElementById("telephoneCallHandler").addEventListener("mouseover",colorChange);
+//document.getElementById("telephoneCallHandler").addEventListener("mouseover",colorChange);
 
-function colorChange(){
+/*function colorChange(){
     document.getElementById("telephoneCallHandler").style.transitionDuration = '0.5s';
     document.getElementById("telephoneCallHandler").style.backgroundColor= '#7CFC00';
     document.getElementById("telephoneCallHandler").style.color='black';
