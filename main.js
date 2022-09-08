@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+//-------------------Surplus code/did not function as intended,saved as a reminder. ----------//
 //document.getElementById("telephoneCallHandler").addEventListener("mouseover",colorChange);
 
 /*function colorChange(){

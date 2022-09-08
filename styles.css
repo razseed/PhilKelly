@@ -25,11 +25,12 @@
 
 #Top-Banner {
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     background-color:rgb(141, 141, 141);
     margin: -1%;
-    padding-top: 30px;
-    padding-bottom: 18px;  
+    padding-top: 25vh;
+    padding-bottom: 25vh;  
 
 }
 
@@ -38,7 +39,7 @@
     justify-content: left;
     text-align: center;
     color:white;
-    margin-left: 8vw;
+    margin-left: 20vw;
 }
 
 #logoTemplate {
@@ -66,6 +67,7 @@
     margin-right: 8vw;
     text-align: center;
     margin-top: 2.5vh;
+    margin-left: 25vw;
 }
 
 #telephoneCallHandler {
@@ -77,14 +79,14 @@
     border-radius: 38px;
     text-decoration: none;
     font-size: 2.5vh;
-    min-width: 210px;
+    min-width: 230px;
     transition: all 600ms ease;
 }
 
 #telephoneCallHandler:hover {
     background:chartreuse;
     color: black;
-    padding:.45vh 2vw .45vh 2vw;
+    padding:.55vh 2.5vw .55vh 2.5vw;
 }
 
 /* ---- Section for plumbing transitions ---------*/
